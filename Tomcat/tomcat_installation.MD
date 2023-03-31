@@ -54,8 +54,8 @@ At the time of writing this lecture below 2 files are updated.
    /opt/tomcat/webapps/manager/META-INF/context.xml
    
    # Restart tomcat services
-   tomcatdown  
-   tomcatup
+   tomcatdown (to enable this, run ln -s /opt/tomcat/bin/shutdown.sh /usr/local/bin/tomcatdown)  
+   tomcatup (to enable this, run ln -s /opt/tomcat/bin/startup.sh /usr/local/bin/tomcatup)
    ```
 1. Update users information in the tomcat-users.xml file
 goto tomcat home directory and Add below users to conf/tomcat-users.xml file
